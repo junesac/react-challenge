@@ -1,0 +1,16 @@
+@import './settings';
+
+$breakpoints: (
+  'smallest': $smallest,
+  'small': $small,
+  'medium': $medium,
+  'large': $large,
+) !default;
+
+@mixin case-of($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}

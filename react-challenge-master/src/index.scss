@@ -1,0 +1,8 @@
+@import 'styles/variables';
+
+body {
+  font-family: $font-primary;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}

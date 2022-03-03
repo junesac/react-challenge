@@ -1,0 +1,43 @@
+// BREAKPOINTS
+$smallest: 576px;
+$small: 767px;
+$medium: 992px;
+$large: 1200px;
+
+// COLORS
+$black: #212121;
+$white: #fff;
+$gray: #757575;
+$light-gray: #ebebeb;
+$dark-gray: #251f1f;
+$red: #bc2906;
+$yellow: #ff0;
+$blue: #766df4;
+$purple: #634cc5;
+$transparent: transparent;
+$inherit: inherit;
+
+// FONTS
+$font-primary: 'Helvetica Neue', sans-serif;
+$font-primary-cond: 'Helvetica 77 Bold Condensed', sans-serif;
+$font-secondary: 'CoconPro', serif;
+
+// HEADINGS
+$h1: 50px;
+$h2: 45px;
+$h3: 38px;
+$h4: 28px;
+$h5: 22px;
+$h6: 16px;
+
+// TYPOGRAPHY
+$global-font-size: 16px;
+$elm-margin: 20px;
+$line-height: 1.5;
+
+// Z-INDEXES
+$level-negative: -1;
+$level-base: 0;
+$level-one: 1;
+$level-two: 2;
+$level-three: 3;
