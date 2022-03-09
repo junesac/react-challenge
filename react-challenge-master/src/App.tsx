@@ -10,7 +10,6 @@ interface Data {
   type: string;
 }
 
-
 const scoreMap = new Map<string, number>();
 scoreMap.set('PushEvent', 5);
 scoreMap.set('PullRequestReviewCommentEvent', 4);
@@ -23,7 +22,6 @@ const App: FunctionComponent<AppState> = (props) => {
     fetch(GIT_USER_URL).then(response => response.json())
     .then(response => {
       calculateScore(response); 
-
     });
   };
 
